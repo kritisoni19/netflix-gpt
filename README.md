@@ -1,11 +1,13 @@
-# npx create-react-app myapp
-# tailwind setup
+
+# Steps
+ - npx create-react-app myapp
+ - tailwind setup
 
 
 # features
 
 - Login/Sign up page
-    - redirect to brose page
+    - redirect to browse page
 
 - Browse page
  - Header
