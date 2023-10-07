@@ -1,14 +1,16 @@
 
-
+import { Provider } from 'react-redux';
+import Body from './components/Body'
+import appStore from './utils/appStore';
 
 function App() {
+  
   return (
-        <>
-         <button className="bg-sky-500 hover:bg-sky-700 rounded text-lg">
-  Save changes
-</button>
-        </>
-  );
+    <Provider store={appStore}>
+         <Body/>
+    </Provider>
+  )
+    
 }
 
 export default App;
